@@ -4,8 +4,11 @@
 #include <cstdlib>
 using namespace std;
 #define UNASSIGNED 0
-#define N 9
- 
+
+#include "E:\Sudoku-Solver-master\Sudoku-Solver-master\Sudoku_Gen.cpp"
+#include "E:\Sudoku-Solver-master\Sudoku-Solver-master\Sudoku_Valid.cpp"
+
+ #define N 9
 bool FindUnassignedLocation(int grid[N][N], int &row, int &col);
 bool isSafe(int grid[N][N], int row, int col, int num);
  
