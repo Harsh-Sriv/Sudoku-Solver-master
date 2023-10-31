@@ -102,6 +102,6 @@ int main()
     }
        
 	// Function call
-	cout << (isValidConfig(board, 9) ? "YES\n" : "NO\n");
+	cout << (isValidConfig(board, 9) ? "\nThe given Sudoku grid is valid\n" : "\nNO, The given Sudoku grid is Invalid\n");
 	return 0;
 }
