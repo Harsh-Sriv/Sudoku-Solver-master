@@ -4,11 +4,9 @@
 #include <cstdlib>
 using namespace std;
 #define UNASSIGNED 0
+#define N 9
 
-#include "E:\Sudoku-Solver-master\Sudoku-Solver-master\Sudoku_Gen.cpp"
-#include "E:\Sudoku-Solver-master\Sudoku-Solver-master\Sudoku_Valid.cpp"
 
- #define N 9
 bool FindUnassignedLocation(int grid[N][N], int &row, int &col);
 bool isSafe(int grid[N][N], int row, int col, int num);
  
@@ -96,6 +94,7 @@ void printGrid(int grid[N][N])
 
 int main()
 {
+
     int grid[N][N];
     cout<<"Enter the grid"<<endl;
     for(int i=0;i<N;i++)
@@ -106,4 +105,5 @@ int main()
     else
         cout<<"No solution exists"<<endl;
     return 0;
+
 }

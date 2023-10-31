@@ -90,7 +90,7 @@ bool isValidConfig(char arr[][9], int n)
 	return true;
 }
 
-/* Driver's code
+
 int main()
 {
 	char board[9][9];
@@ -104,4 +104,4 @@ int main()
 	// Function call
 	cout << (isValidConfig(board, 9) ? "YES\n" : "NO\n");
 	return 0;
-}*/
+}
